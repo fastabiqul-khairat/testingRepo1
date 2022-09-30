@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Sederhana</title>
+</head>
+<body style="background-color:powderblue;">
+<form >
+	<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/LOGO_IT_PLN.png" width="320" height="130" alt="photo">
+	<h1 style="color:red;">Pendataan Mahasiswa ITPLN</h1>
+	<p>
+		<label for="nama">Nama : </label>
+		<input type="text" name="nama">
+	</p>
+	<p>
+		<label for="gender">Jenis Kelamin : </label>
+		<input type="radio" name="sex"
+		value="pria">Pria<input type="radio" name="sex"
+		value="wanita">Wanita
+	</p>
+	<p>
+		<label for="alamat">Alamat : </label>
+		<input type="text" name="alamat">
+	</p>
+	<p>
+		<label for="asal">Asal Daerah : </label>
+		<select name="country">
+			<option value="jakarta">Jakarta</option>
+			<option value="jawa">Jawa</option>
+			<option value="sulawesi">Sulawesi</option>
+			<option value="ntb">NTB</option>
+			<option value="ntt">NTT</option>
+		</select>
+	</p>
+	<p>
+		<label for="email">Email : </label>
+		<input type="text" name="email">
+	</p>
+	<p>
+		<label for="nomor">Nomor WA : </label>
+		<input type="text" name="no wa">
+	</p>
+	<p>
+		<label for="foro">Foto : </label>
+		<input type="file" name="upload">
+	</p>
+	<p>
+		<label for="vaksin">Dosis Vaksin : </label>
+		<input type="checkbox" name="vaksin"
+		value="pertama">Pertama <input type="checkbox" name="vaksin" value="kedua">Kedua <input type="checkbox" name="vaksin" value="ketiga">Ketiga <input type="checkbox" name="vaksin" value="keempat">Keempat
+	</p>
+	<p>
+		<label for="sertifikat">Sertifikat Vaksin : </label>
+		<input type="file" name="upload">
+	</p>
+	<p>
+		<label for="coment">Comment : </label>
+		<textarea></textarea>
+		<input type="submit" name="submit" value="Submit">
+	</p>
+</form>
+</body>
+</html>
